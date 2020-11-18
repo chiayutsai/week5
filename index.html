@@ -180,52 +180,110 @@
                         <p class="font-weight-bold">HW-2-David.zip</p>
                     </a>
                 </div>
-                <div class="d-flex justify-content-between align-items-center pl-4 pr-6 mb-4">
-                    <div class=" d-flex align-items-center ">
-                        <div class="user__img mr-3">
-                            <img class="rounded-circle"
-                                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true"
-                                alt="photo">
+                <div class="js-reply">
+                    <div class="d-flex justify-content-between align-items-center pl-4 pr-6 mb-4">
+                        <div class=" d-flex align-items-center ">
+                            <div class="user__img mr-3">
+                                <img class="rounded-circle"
+                                    src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true"
+                                    alt="photo">
+                            </div>
+                            <div class="user__infro">
+                                <p class="font-weight-bold">Andy Chen (You)</p>
+                                <p class="text-xs text-black-50">13:24 AM (1 hours ago)</p>
+                            </div>
                         </div>
-                        <div class="user__infro">
-                            <p class="font-weight-bold">Andy Chen (You)</p>
-                            <p class="text-xs text-black-50">13:24 AM (1 hours ago)</p>
+                        <div class="d-flex">
+                            <a class="mr-5" href=""> <span class="material-icons ">
+                                    star_border
+                                </span></a>
+                            <a href=""><span class="material-icons">
+                                    edit
+                                </span></a>
                         </div>
                     </div>
-                    <div class="d-flex">
-                        <a class="mr-5" href=""> <span class="material-icons ">
-                                star_border
-                            </span></a>
-                        <a href=""><span class="material-icons">
-                                edit
-                            </span></a>
+                    <div class="ml-11 mr-6 mb-4">
+                        <p class="text-sm mb-6">Hi David, by default, an image is rendered inline, like a letter so it
+                            sits
+                            on
+                            the
+                            same line that a, b, c and d sit on. There is space below that line for the descenders you
+                            find
+                            on
+                            letters like g, j, p and q. </p>
+                        <p class="text-sm mb-6">You can: </p>
+                        <ul class="dot__list">
+                            <li>adjust the<span class="text-secondary bg-primary"> vertical-align </span>of the image to
+                                position it
+                                elsewhere (e.g. the<span class="text-secondary bg-primary"> middle </span>)</li>
+                            <li>change the <span class="text-secondary bg-primary"> display</span> so it isn’t inline.
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="ml-11 mr-6 mb-4">
-                    <p class="text-sm mb-6">Hi David, by default, an image is rendered inline, like a letter so it sits
-                        on
-                        the
-                        same line that a, b, c and d sit on. There is space below that line for the descenders you find
-                        on
-                        letters like g, j, p and q. </p>
-                    <p class="text-sm mb-6">You can: </p>
-                    <ul class="dot__list">
-                        <li>adjust the<span class="text-secondary bg-primary"> vertical-align </span>of the image to
-                            position it
-                            elsewhere (e.g. the<span class="text-secondary bg-primary"> middle </span>)</li>
-                        <li>change the <span class="text-secondary bg-primary"> display</span> so it isn’t inline.</li>
-                    </ul>
+                <div class=" js-editing">
+                    <div class="bg-primary d-flex  align-items-center py-4 px-5 border-top border-bottom">
+                        <p class="font-weight-bold mr-3">Body Text</p>
+                        <a class="lh-1 mr-5" href="">
+                            <span class="material-icons">
+                                arrow_drop_down
+                            </span>
+                        </a>
+                        <a class="lh-1 mr-5" href="">
+                            <span class="material-icons">
+                                format_bold
+                            </span>
+                        </a>
+                        <a class="lh-1 mr-5" href="">
+                            <span class="material-icons">
+                                format_italic
+                            </span>
+                        </a>
+                        <a class="lh-1 mr-5" href="">
+                            <span class="material-icons">
+                                format_list_bulleted
+                            </span>
+                        </a>
+                        <a class="lh-1 mr-5" href="">
+                            <span class="material-icons">
+                                format_list_numbered
+                            </span>
+                        </a>
+                        <a class="lh-1 mr-5" href="">
+                            <span class="material-icons">
+                                insert_photo
+                            </span>
+                        </a>
+                        <a class="lh-1 mr-5" href="">
+                            <span class="material-icons">
+                                link
+                            </span>
+                        </a>
+                        <a class="lh-1" href="">
+                            <span class="material-icons">
+                                code
+                            </span>
+                        </a>
+                    </div>
+                    <p class="editor__text text-black-50 py-4 px-5 ">Reply an answer…</p>
+                    <div class="d-flex justify-content-end py-4 px-5">
+                        <button
+                            class=" btn text-secondary font-weight-bold rounded py-3 px-6 border border-secondary mr-4 js-cancle">Cancel</button>
+                        <button class="btn bg-secondary font-weight-bold text-white rounded py-3 px-6 ">Reply</button>
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="d-flex justify-content-end">
-        <a class="text-secondary font-weight-bold rounded py-3 px-6 border border-secondary mr-4" href="">Mark as
-            read</a>
-        <a class="bg-secondary font-weight-bold text-white rounded py-3 px-6" href="editor.html">Reply</a>
+    <div class="d-flex justify-content-end js-disaper">
+        <button class="btn text-secondary font-weight-bold rounded py-3 px-6 border border-secondary mr-4">Mark
+            as
+            read</button>
+        <button class="btn bg-secondary font-weight-bold text-white rounded py-3 px-6 js-onedit">Reply</button>
 
     </div>
-    <div class="control position-absolute d-flex">
+    <div class="control position-absolute d-flex js-disaper">
         <a href=""><span class="material-icons mr-5">
                 keyboard_arrow_left
             </span></a>
@@ -239,12 +297,8 @@
   </div>
 
   <script src="./assets/js/vendors.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
+  <script src="./assets/js/bundle.js"></script>
+  <script src="./assets/js/bootstrap.js"></script>
   <script src="./assets/js/all.js"></script>
 
 </body>
