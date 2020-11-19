@@ -9,6 +9,7 @@ if (title == 'Assignment') {
   $('.sidebar__item:nth-child(5)').addClass('sidebar__item--active');
 }
 
+$('.js-editing').css('display', 'none');
 $('.js-onedit').click(function () {
   console.log('test');
   $('.js-editing').css('display', 'block');
