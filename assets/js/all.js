@@ -19,7 +19,7 @@ $('.js-onedit').click(function () {
 $('.js-cancle').click(function () {
   console.log('test');
   $('.js-editing').css('display', 'none');
-  $('.js-reply').css('display', 'block');
+  $('.js-reply').css('display', 'flex');
   $('.js-disaper').css('opacity', '1');
 });
 //# sourceMappingURL=all.js.map
